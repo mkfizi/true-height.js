@@ -1,3 +1,10 @@
+/* -----------------------------------------------
+/* Author : Khafizi Noh  - mkfizi.github.io 
+/* MIT license: http://opensource.org/licenses/MIT
+/* GitHub : https://github.com/mkfizi/true-height.js
+/* How to use? : Check the GitHub README
+/* ----------------------------------------------- */
+
 window.onresize = trueHeightJS;
 
 function trueHeightJS(){
