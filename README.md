@@ -6,7 +6,7 @@ When you set an landing page's height to 100vh, it will stylize the landing page
 
 ## Usage
 Call cdn link to true-height.js as below:
-> &lt;script src="https://cdn.jsdelivr.net/gh/mkfizi/true-height.js/true-height.js">&lt;/script>
+> &lt;script src="https://cdn.jsdelivr.net/gh/mkfizi/true-height.js/true-height.js"> &lt;/script>
 
 Add this function call below to your javascript file:
 > trueHeightJS();
@@ -15,11 +15,11 @@ Put class name "true-height" to landing page element.
 Example:
 
 > &lt;div class="true-height">
-> &nbsp; &nbsp;&nbsp;...
+> &#32;&nbsp;&nbsp;...
 > &lt;/div>
 
 or
 
 > &lt;section class="true-height">
-> &nbsp; &nbsp;&nbsp;...
+> &#32;&nbsp;&nbsp;...
 > &lt;/section>
