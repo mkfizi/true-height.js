@@ -1,9 +1,25 @@
 # true-height.js
-Simple javascript framework to set landing page's height to inner browser height
+Simple javascript framework to set an element's height to inner browser's height.
+
+## Why
+When you set an landing page's height to 100vh, it will stylize the landing page's height to device's screen size without taking the height of inner browser into account. This framework will fix that issue so the landing page's height will consistently be set to inner browser's height.
 
 ## Usage
-Call cdn link to true-height.js as below
-> https://cdn.jsdelivr.net/gh/mkfizi/true-height.js/true-height.js
+Call cdn link to true-height.js as below"
+> <script src="https://cdn.jsdelivr.net/gh/mkfizi/true-height.js/true-height.js"></script>
 
-Add this function call below to your javascript file.
+Add this function call below to your javascript file"
 > trueHeightJS();
+
+Put class name "true-height" to landing page element.
+Example:
+
+> <div class="true-height">
+>    ...
+> </div>
+
+or
+
+> <section class="true-height">
+>    ...
+> </section>
