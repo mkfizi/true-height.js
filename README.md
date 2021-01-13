@@ -1,5 +1,5 @@
 # true-height.js
-Simple lightweight javascript framework to set an element's height to inner browser's height.
+Simple lightweight javascript framework to set an element's height to inner browser's height.<br>
 [DEMO](https://mkfizi.github.io/true-height.js)
 
 ## Why
