@@ -5,7 +5,10 @@
 /* Website : https://mkfizi.github.io/true-height.js
 /* GitHub : https://github.com/mkfizi/true-height.js
 /* ----------------------------------------------- */
-window.onresize = checkWidth;
+
+window.onresize = window.addEventListener("resize", function() {
+    checkWidth();
+});
 
 var innerBrowser = {
     height:  window.innerHeight,
