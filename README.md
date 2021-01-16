@@ -1,6 +1,6 @@
 # true-height.js
 Lightweight Javascript library that set an element's height to be equivalent to inner browser's height.<br>
-[DEMO](https://mkfizi.github.io/true-height.js)
+[DEMO](https://mkfizi.github.io/trueHeightJS.html)
 
 ## What does it do
 When you set a landing page's height to 100vh, it will stylize the landing page's height to device's screen size without taking the height of inner browser into account. This library will fix that issue so the landing page's height will consistently be set to inner browser's height.
