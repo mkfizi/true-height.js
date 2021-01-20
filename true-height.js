@@ -21,8 +21,26 @@ function trueHeightJS(){
     var setHeight       = innerBrowser.height;
     var element         = document.getElementsByClassName("true-height")
     for(var i = 0; i < element.length; i++) {
-        element[i].style.height = setHeight+"px";
+        var childHeight = checkChild(element[i], 0);
+        console.log(childHeight+" "+setHeight);
+        if(childHeight > setHeight){
+            element[i].style.height = childHeight+"px";
+        }else{
+            element[i].style.height = setHeight+"px";
+        }
     }
+}
+
+function checkChild(element, sum){
+    var elementChild = element.children;
+    if(elementChild.length > 0){
+        for(var i = 0; i < elementChild.length; i++){
+            sum = checkChild(elementChild[i], sum);
+        }
+    }else{
+        sum = sum + element.offsetHeight;
+    }
+    return sum;
 }
 
 function checkWidth(){

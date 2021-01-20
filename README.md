@@ -3,7 +3,7 @@ Lightweight Javascript library that set an element's height to be equivalent to 
 [DEMO](https://mkfizi.github.io/true-height.js)
 
 ## What does it do
-When you set a landing page's height to 100vh, it will stylize the landing page's height to device's screen size without taking the height of inner browser into account. This library will fix that issue so the landing page's height will consistently be set to inner browser's height.
+When you set a landing page's height to 100vh, it will stylize the landing page's height to device's screen size without taking the height of inner browser into account. This library will fix that issue so the landing page's height will consistently be set to inner browser's height. However, the landing page will be set to it's content height if it has larger value than the browser's height.
 
 ## Usage
 Call cdn link to true-height.js before your custom javascript as below:
