@@ -21,8 +21,8 @@ function trueHeightJS(){
     var setHeight       = innerBrowser.height;
     var element         = document.getElementsByClassName("true-height")
     for(var i = 0; i < element.length; i++) {
-        var childHeight = checkChild(element[i], 0);
-        console.log(childHeight+" "+setHeight);
+        var sum = 0;
+        var childHeight = checkChild(element[i], sum);
         if(childHeight > setHeight){
             element[i].style.height = childHeight+"px";
         }else{
